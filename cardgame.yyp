@@ -43,7 +43,7 @@
     {"id":{"name":"obj_entry","path":"objects/obj_entry/obj_entry.yy",},"order":20,},
     {"id":{"name":"Sequence1","path":"sequences/Sequence1/Sequence1.yy",},"order":0,},
     {"id":{"name":"card_value","path":"scripts/card_value/card_value.yy",},"order":1,},
-    {"id":{"name":"rm_won1","path":"rooms/rm_won1/rm_won1.yy",},"order":2,},
+    {"id":{"name":"rm_won","path":"rooms/rm_won/rm_won.yy",},"order":2,},
     {"id":{"name":"spr_K","path":"sprites/spr_K/spr_K.yy",},"order":9,},
     {"id":{"name":"font_damage","path":"fonts/font_damage/font_damage.yy",},"order":1,},
     {"id":{"name":"spr_4","path":"sprites/spr_4/spr_4.yy",},"order":17,},
@@ -88,7 +88,7 @@
     {"roomId":{"name":"rm_startingMap","path":"rooms/rm_startingMap/rm_startingMap.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"rm_end","path":"rooms/rm_end/rm_end.yy",},},
-    {"roomId":{"name":"rm_won1","path":"rooms/rm_won1/rm_won1.yy",},},
+    {"roomId":{"name":"rm_won","path":"rooms/rm_won/rm_won.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":12,},
@@ -110,10 +110,10 @@
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
   ],
   "TextureGroups": [
-    {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","isScaled":true,"compressFormat":"bz2","loadType":"default","directory":"","autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,},
+    {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","isScaled":true,"compressFormat":"bz2","autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,},
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.11.0.54",
+    "IDEVersion": "2022.8.0.34",
   },
 }
