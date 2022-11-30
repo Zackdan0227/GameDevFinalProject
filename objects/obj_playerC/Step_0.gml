@@ -41,6 +41,20 @@ if(place_meeting(x,y,obj_npc)){
 
 depth = -y;
 
+var _exit = instance_place(x, y, obj_exit);
+
+// Enter room when trigger area is left
+if (!enteredRoom && _exit == noone) {
+	enteredRoom = true;
+}
+
+if (enteredRoom && _exit != noone) {
+	room_goto(_exit.targetRoom);
+	
+	obj_roomManger.targetInstance = _exit.targetInstance;
+
+	enteredRoom = false;
+}
 
 
 

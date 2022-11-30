@@ -20,6 +20,12 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_52FAAEE7","properties":[],"isDnd":false,"objectId":{"name":"obj_desk","path":"objects/obj_desk/obj_desk.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":4.0,"scaleY":4.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":832.0,"y":32.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_D7108BF","properties":[],"isDnd":false,"objectId":{"name":"obj_desk","path":"objects/obj_desk/obj_desk.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":4.0,"scaleY":4.5,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":992.0,"y":384.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4A53B263","properties":[],"isDnd":false,"objectId":{"name":"obj_playerC","path":"objects/obj_playerC/obj_playerC.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":3.0,"scaleY":3.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":160.0,"y":192.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"room1_arrow1","properties":[],"isDnd":false,"objectId":{"name":"obj_entry","path":"objects/obj_entry/obj_entry.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.5,"scaleY":2.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":928.0,"y":64.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"room1_exit1","properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"targetInstance","path":"objects/obj_exit/obj_exit.yy",},"objectId":{"name":"obj_exit","path":"objects/obj_exit/obj_exit.yy",},"value":"room2_arrow1",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"targetRoom","path":"objects/obj_exit/obj_exit.yy",},"objectId":{"name":"obj_exit","path":"objects/obj_exit/obj_exit.yy",},"value":"Room1",},
+          ],"isDnd":false,"objectId":{"name":"obj_exit","path":"objects/obj_exit/obj_exit.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.0,"scaleY":2.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":896.0,"y":160.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_34F0AC35","properties":[],"isDnd":false,"objectId":{"name":"obj_roomManger","path":"objects/obj_roomManger/obj_roomManger.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":736.0,"y":352.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_1","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_672A4500","properties":[],"isDnd":false,"objectId":{"name":"obj_npc","path":"objects/obj_npc/obj_npc.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.5,"scaleY":3.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":960.0,"y":32.0,},
@@ -36,6 +42,9 @@
     {"name":"inst_672A4500","path":"rooms/rm_startingMap/rm_startingMap.yy",},
     {"name":"inst_1F6CAFE9","path":"rooms/rm_startingMap/rm_startingMap.yy",},
     {"name":"inst_4A53B263","path":"rooms/rm_startingMap/rm_startingMap.yy",},
+    {"name":"room1_arrow1","path":"rooms/rm_startingMap/rm_startingMap.yy",},
+    {"name":"room1_exit1","path":"rooms/rm_startingMap/rm_startingMap.yy",},
+    {"name":"inst_34F0AC35","path":"rooms/rm_startingMap/rm_startingMap.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
