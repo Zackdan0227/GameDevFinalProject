@@ -1,4 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-myscore = 1
-totalHp = 50;
+//lesser hp
+
+myscore = 21
+totalHp = 21;

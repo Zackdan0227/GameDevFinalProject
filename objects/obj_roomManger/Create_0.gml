@@ -2,4 +2,4 @@
 // You can write your code in this editor
 targetInstance = noone;
 
-
+global.levelNormal = false

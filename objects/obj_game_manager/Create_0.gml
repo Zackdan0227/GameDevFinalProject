@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 randomize()
+//difficulty for boss fight and first encounter
+global.difficulty = -1;
 ai_deal_cards = true
 player_hand_value = 0
 ai_hand_value = 0
@@ -33,6 +35,7 @@ card_y = 300
 dep = 0
 burn_cards = ds_list_create()
 
+//card shuffle and deal generate cards
 for(i=0; i< num_cards; i++){
 n = i%13;
 
@@ -44,6 +47,7 @@ ds_list_shuffle(dealcards)
 for(i=0; i< num_cards; i++){
 card_inst = instance_create_layer( 80 , card_y, "Instances", obj_card)
 card_inst.card_type = dealcards[|i];
+//assign values
 switch(dealcards[|i]){
 			case 0:
 				
@@ -104,7 +108,59 @@ card_y +=2
 
 burncard_y = 440
 //AI
+//set state
+stateEasy = function(){
+	if(ai_hand == 3 || ai_hand_value >21){
+		ai_deal_cards = false
+	ai_hit = false
+	elseLoop = false
+		alarm[5] = room_speed*1.5	
+	}
+	if(ai_hand<3){
+		if(ai_hand_value <21){
+			alarm[0] = room_speed*0.25;
+		}
+	}
+}
 
+stateNormal = function(){
+	if(ai_hand_value<=16){
+if(ai_hand <5 and ai_hand_value <21){
+	
+	alarm[0] = room_speed*0.25	
+}
+
+}
+if(ai_hand_value>16 and ai_hand<=5){
+	ai_deal_cards = false
+	ai_hit = false
+	elseLoop = false
+	alarm[5] = room_speed*1.5
+}
+}
+state = stateEasy
+//set hp
+	if(global.difficulty>-1){
+	switch(global.difficulty){
+		case 0:
+			state = stateEasy;
+			obj_score_ai.myscore = 21;
+			obj_score_ai.totalHp = 21;
+		break;
+		case 1:
+			state = stateNormal;
+			obj_score_ai.myscore = 42;
+			obj_score_ai.totalHp = 42;
+			break;
+		case 2:
+			//state = stateBoss
+			obj_score_ai.myscore = 84;
+			obj_score_ai.totalHp = 84;
+			break;
+	}
+	}
+	
+//deal card
 	deal = true
 	curCards = cards[|0]
 	ai_hand_value += curCards.cardValue

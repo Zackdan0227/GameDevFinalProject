@@ -44,16 +44,26 @@ depth = -y;
 var _exit = instance_place(x, y, obj_exit);
 
 // Enter room when trigger area is left
+
 if (!enteredRoom && _exit == noone) {
 	enteredRoom = true;
 }
 
 if (enteredRoom && _exit != noone) {
+	if(_exit.enable){
+		if(_exit.difficulty!=-1) global.difficulty = _exit.difficulty;
+		
+	if(_exit.difficulty== 0){
+			global.levelNormal = true
+
+	}
 	room_goto(_exit.targetRoom);
 	
 	obj_roomManger.targetInstance = _exit.targetInstance;
 
 	enteredRoom = false;
+	}
+
 }
 
 
