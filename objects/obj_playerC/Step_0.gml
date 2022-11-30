@@ -7,7 +7,6 @@ var s = 10;
 
 if(collision_circle(x,y,50,obj_npc,false,false)){
 	if(keyboard_check_pressed(ord(" "))){
-		room_goto(Room1);
 		global.texbox_showing = true;
 		
 	}
@@ -39,9 +38,16 @@ if(place_meeting(x,y,obj_npc)){
 	y = old_y;
 }
 
+if(place_meeting(x,y,obj_wall)){
+	x = old_x;
+	y = old_y;
+}
+
+
 depth = -y;
 
 var _exit = instance_place(x, y, obj_exit);
+
 
 // Enter room when trigger area is left
 if (!enteredRoom && _exit == noone) {
