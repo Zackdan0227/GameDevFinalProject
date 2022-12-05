@@ -12,7 +12,11 @@ else if(player_hand_value == 21 and ai_hand_value == 21){
 	obj_round_pop.display = "DRAW..."
 	obj_round_pop.state = "in"
 	alarm[6] = room_speed *0.25	
-} else{
+} else if ( player_hand_value == ai_hand_value){
+	obj_round_pop.display = "DRAW..."
+	obj_round_pop.state = "in"
+	alarm[6] = room_speed *0.25	
+}else{
 if(ai_hand_value >21 and player_hand_value>21){
 	audio_play_sound(sound_takedamage,1,false)
 	obj_score_ai.myscore = obj_score_ai.myscore - (ai_hand_value-21)
