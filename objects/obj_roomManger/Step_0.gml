@@ -9,7 +9,7 @@ if(global.levelNormal){
 	enable = false;	 
  }
 }else{
- with(room1_exit2){
+with(room1_exit2){
 	enable = false;	 
  }
 }
