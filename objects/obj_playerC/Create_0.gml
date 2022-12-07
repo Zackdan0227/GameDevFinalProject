@@ -4,4 +4,3 @@
  enteredRoom = false;
 
 
-haskey = false;

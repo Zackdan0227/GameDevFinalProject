@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_key",
   "spriteId": {
-    "name": "Sprite31",
-    "path": "sprites/Sprite31/Sprite31.yy",
+    "name": "spr_key",
+    "path": "sprites/spr_key/spr_key.yy",
   },
   "solid": false,
   "visible": true,

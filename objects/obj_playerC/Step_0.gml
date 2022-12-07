@@ -73,11 +73,11 @@ if (enteredRoom && _exit != noone) {
 }
 
 if(place_meeting(x,y,obj_key)){
-haskey = true;	
+global.haskey = true;	
 instance_destroy(obj_key)
 }
 
-if(haskey == true && place_meeting(x,y,obj_door)){
+if(global.haskey and place_meeting(x,y,obj_door)){
 	show_debug_message("1");
 	room_goto(rm_finalboss);
 }
