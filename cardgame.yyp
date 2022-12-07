@@ -26,6 +26,7 @@
     {"id":{"name":"Sequence2","path":"sequences/Sequence2/Sequence2.yy",},"order":1,},
     {"id":{"name":"obj_npc","path":"objects/obj_npc/obj_npc.yy",},"order":17,},
     {"id":{"name":"obj_shake","path":"objects/obj_shake/obj_shake.yy",},"order":13,},
+    {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},"order":5,},
     {"id":{"name":"obj_hit_pop_p","path":"objects/obj_hit_pop_p/obj_hit_pop_p.yy",},"order":14,},
     {"id":{"name":"sound_takedamage","path":"sounds/sound_takedamage/sound_takedamage.yy",},"order":3,},
     {"id":{"name":"spr_9","path":"sprites/spr_9/spr_9.yy",},"order":12,},
@@ -106,8 +107,12 @@
     {"roomId":{"name":"rm_end","path":"rooms/rm_end/rm_end.yy",},},
     {"roomId":{"name":"rm_won","path":"rooms/rm_won/rm_won.yy",},},
     {"roomId":{"name":"rm_won2","path":"rooms/rm_won2/rm_won2.yy",},},
+<<<<<<< Updated upstream
     {"roomId":{"name":"rm_finalboss","path":"rooms/rm_finalboss/rm_finalboss.yy",},},
     {"roomId":{"name":"rm_bossend","path":"rooms/rm_bossend/rm_bossend.yy",},},
+=======
+    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
+>>>>>>> Stashed changes
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":12,},

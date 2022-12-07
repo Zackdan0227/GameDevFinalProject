@@ -56,18 +56,20 @@ if (!enteredRoom && _exit == noone) {
 }
 
 if (enteredRoom && _exit != noone) {
+	show_debug_message("1");
 	if(_exit.enable){
+		show_debug_message("3");
 		if(_exit.difficulty!=-1) global.difficulty = _exit.difficulty;
 		
-	if(_exit.difficulty== 0){
-			global.levelNormal = true
+		if(_exit.difficulty== 0){
+				global.levelNormal = true
 
-	}
-	room_goto(_exit.targetRoom);
+		}
+		room_goto(_exit.targetRoom);
 	
-	obj_roomManger.targetInstance = _exit.targetInstance;
+		obj_roomManger.targetInstance = _exit.targetInstance;
 
-	enteredRoom = false;
+		enteredRoom = false;
 	}
 
 }
