@@ -22,5 +22,5 @@ if(global.defeatEnemyTwo){
 
 if(global.defeatEnemyTwo and global.keyCreate ){
 	global.keyCreate = false
-	inst_key = instance_create_layer(1250, 280, "Instances",obj_key)
+	inst_key = instance_create_layer(600, 280, "Instances",obj_key);
 }

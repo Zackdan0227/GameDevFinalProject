@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_finalBoss",
   "spriteId": {
-    "name": "spr_finalboss",
-    "path": "sprites/spr_finalboss/spr_finalboss.yy",
+    "name": "spr_npcboss",
+    "path": "sprites/spr_npcboss/spr_npcboss.yy",
   },
   "solid": false,
   "visible": true,
