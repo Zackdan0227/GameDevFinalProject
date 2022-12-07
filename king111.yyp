@@ -83,6 +83,7 @@
     {"id":{"name":"spr_Q","path":"sprites/spr_Q/spr_Q.yy",},"order":20,},
     {"id":{"name":"obj_score_ai","path":"objects/obj_score_ai/obj_score_ai.yy",},"order":6,},
     {"id":{"name":"obj_roomwon2","path":"objects/obj_roomwon2/obj_roomwon2.yy",},"order":29,},
+    {"id":{"name":"spr_intro","path":"sprites/spr_intro/spr_intro.yy",},"order":52,},
     {"id":{"name":"obj_key","path":"objects/obj_key/obj_key.yy",},"order":26,},
     {"id":{"name":"spr_card_back","path":"sprites/spr_card_back/spr_card_back.yy",},"order":1,},
     {"id":{"name":"spr_lost","path":"sprites/spr_lost/spr_lost.yy",},"order":48,},
