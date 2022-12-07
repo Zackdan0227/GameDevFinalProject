@@ -11,7 +11,6 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-<<<<<<< Updated upstream
   "bbox_right": 1899,
   "bbox_top": 0,
   "bbox_bottom": 1899,
@@ -20,16 +19,6 @@
   "For3D": false,
   "width": 1900,
   "height": 1900,
-=======
-  "bbox_right": 1199,
-  "bbox_top": 0,
-  "bbox_bottom": 1599,
-  "HTile": false,
-  "VTile": false,
-  "For3D": false,
-  "width": 1200,
-  "height": 1600,
->>>>>>> Stashed changes
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
