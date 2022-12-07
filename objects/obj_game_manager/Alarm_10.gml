@@ -7,5 +7,5 @@ room_goto(rm_won);
 global.defeatEnemyTwo = true;
 room_goto(rm_won2);
 }else if (global.difficulty = 2){
-room_goto(rm_bossend);	
+room_goto(rm_gameEnd);	
 }

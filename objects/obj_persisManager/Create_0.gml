@@ -8,3 +8,4 @@ global.difficulty = -1;
 global.keyCreate = true
 global.myscore = 21;
 global.totalHp = 21;
+global.haskey = false;
