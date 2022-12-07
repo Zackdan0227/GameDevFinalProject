@@ -51,6 +51,7 @@
     {"id":{"name":"obj_dialogue3","path":"objects/obj_dialogue3/obj_dialogue3.yy",},"order":38,},
     {"id":{"name":"obj_finalBoss","path":"objects/obj_finalBoss/obj_finalBoss.yy",},"order":25,},
     {"id":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},"order":27,},
+    {"id":{"name":"obj_p","path":"objects/obj_p/obj_p.yy",},"order":39,},
     {"id":{"name":"spr_talking3","path":"sprites/spr_talking3/spr_talking3.yy",},"order":46,},
     {"id":{"name":"spr_playerC","path":"sprites/spr_playerC/spr_playerC.yy",},"order":27,},
     {"id":{"name":"spr_key","path":"sprites/spr_key/spr_key.yy",},"order":37,},
