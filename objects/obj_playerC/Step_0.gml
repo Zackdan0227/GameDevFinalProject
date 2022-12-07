@@ -44,7 +44,7 @@ if(place_meeting(x,y,obj_wall)){
 }
 
 
-depth = -y;
+
 
 var _exit = instance_place(x, y, obj_exit);
 
@@ -89,3 +89,4 @@ if(collision_circle(x,y,40, obj_finalBoss,false, true)){
 	global.finalBoss= true
 	room_goto(Room1)
 }
+depth = -y;
