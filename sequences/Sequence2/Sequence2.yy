@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSequence",
+  "resourceVersion": "1.4",
+  "name": "Sequence2",
   "spriteId": null,
   "timeUnits": 1,
   "playback": 0,
@@ -36,8 +39,4 @@
     "name": "Sequences",
     "path": "folders/Sequences.yy",
   },
-  "resourceVersion": "1.4",
-  "name": "Sequence2",
-  "tags": [],
-  "resourceType": "GMSequence",
 }
