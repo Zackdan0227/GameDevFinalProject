@@ -5,8 +5,6 @@
   "resources": [
     {"id":{"name":"font_score","path":"fonts/font_score/font_score.yy",},"order":0,},
     {"id":{"name":"sound_correct","path":"sounds/sound_correct/sound_correct.yy",},"order":1,},
-    {"id":{"name":"obj_npc2","path":"objects/obj_npc2/obj_npc2.yy",},"order":30,},
-    {"id":{"name":"spr_playerC29","path":"sprites/spr_playerC29/spr_playerC29.yy",},"order":35,},
     {"id":{"name":"obj_desk","path":"objects/obj_desk/obj_desk.yy",},"order":18,},
     {"id":{"name":"obj_stop1","path":"objects/obj_stop1/obj_stop1.yy",},"order":31,},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"order":24,},
@@ -61,7 +59,6 @@
     {"id":{"name":"obj_entry","path":"objects/obj_entry/obj_entry.yy",},"order":20,},
     {"id":{"name":"spr_finalboss","path":"sprites/spr_finalboss/spr_finalboss.yy",},"order":32,},
     {"id":{"name":"Sequence1","path":"sequences/Sequence1/Sequence1.yy",},"order":0,},
-    {"id":{"name":"spr_npc2","path":"sprites/spr_npc2/spr_npc2.yy",},"order":36,},
     {"id":{"name":"card_value","path":"scripts/card_value/card_value.yy",},"order":1,},
     {"id":{"name":"rm_won","path":"rooms/rm_won/rm_won.yy",},"order":2,},
     {"id":{"name":"spr_K","path":"sprites/spr_K/spr_K.yy",},"order":9,},

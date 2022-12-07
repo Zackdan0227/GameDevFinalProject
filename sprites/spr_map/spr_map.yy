@@ -11,15 +11,20 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 1899,
+  "bbox_right": 1365,
   "bbox_top": 0,
-  "bbox_bottom": 1899,
+  "bbox_bottom": 767,
   "HTile": false,
   "VTile": false,
   "For3D": false,
   "DynamicTexturePage": false,
+<<<<<<< HEAD
   "width": 1900,
   "height": 1900,
+=======
+  "width": 1366,
+  "height": 768,
+>>>>>>> main
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
