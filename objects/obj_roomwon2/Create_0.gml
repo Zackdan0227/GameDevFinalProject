@@ -1,7 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
- global.texbox_showing = false;
- enteredRoom = false;
 
 
-haskey = false;
+global.defeatEnemyTwo = true

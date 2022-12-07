@@ -15,12 +15,12 @@ ds_list_add(cards, card_shuff)
 card_y-=5
 }
 restart_i++
-show_debug_message(restart_i)
+
 if(restart_i< 51)alarm[7] = room_speed*0.05
 }
 
 if(restart_i == totalCards-1){
-	show_debug_message(restart_i)
+	
 	card_shuff = burn_cards[|restart_i]
 if(card_shuff!=noone){
 	audio_play_sound(sound_deal,1,false)

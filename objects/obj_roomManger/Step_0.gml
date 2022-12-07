@@ -13,3 +13,14 @@ with(room1_exit2){
 	enable = false;	 
  }
 }
+
+if(global.defeatEnemyTwo){
+	with(room1_exit2){
+		enable = false
+	}
+}
+
+if(global.defeatEnemyTwo and global.keyCreate ){
+	global.keyCreate = false
+	inst_key = instance_create_layer(1250, 280, "Instances",obj_key)
+}

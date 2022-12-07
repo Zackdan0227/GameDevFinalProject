@@ -1,4 +1,5 @@
-/// @description Insert description here
+/// @description restartgame
+
 // You can write your code in this editor
 ai_hand = 0
 p_hand =0

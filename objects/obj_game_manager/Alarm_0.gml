@@ -1,5 +1,6 @@
 /// @description deal AI
 // You can write your code in this editor
+show_debug_message("AI HEALTH: " + string(obj_score_ai.myscore))
 if(ai_deal_cards){
 ai_hand++
 curCards = cards[|0]

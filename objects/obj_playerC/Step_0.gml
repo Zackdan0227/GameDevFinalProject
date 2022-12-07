@@ -72,5 +72,18 @@ if (enteredRoom && _exit != noone) {
 
 }
 
+if(place_meeting(x,y,obj_key)){
+		
+instance_destroy(obj_key)
+haskey = true;
+}
 
+if(haskey and place_meeting(x,y,obj_door)){
+	room_goto(rm_finalboss)	
+}
 
+if(collision_circle(x,y,40, obj_finalBoss,false, true)){
+	global.difficulty = 2
+	global.finalBoss= true
+	room_goto(Room1)
+}

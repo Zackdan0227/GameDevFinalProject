@@ -2,5 +2,5 @@
 // You can write your code in this editor
 //lesser hp
 
-myscore = 21
-totalHp = 21;
+myscore = global.myscore
+totalHp = global.totalHp;
