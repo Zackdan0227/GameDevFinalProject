@@ -39,6 +39,7 @@
     {"id":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},"order":27,},
     {"id":{"name":"spr_key","path":"sprites/spr_key/spr_key.yy",},"order":33,},
     {"id":{"name":"spr_playerC","path":"sprites/spr_playerC/spr_playerC.yy",},"order":27,},
+    {"id":{"name":"Sprite31","path":"sprites/Sprite31/Sprite31.yy",},"order":37,},
     {"id":{"name":"rm_finalboss","path":"rooms/rm_finalboss/rm_finalboss.yy",},"order":5,},
     {"id":{"name":"obj_hit_button","path":"objects/obj_hit_button/obj_hit_button.yy",},"order":7,},
     {"id":{"name":"rm_bossend","path":"rooms/rm_bossend/rm_bossend.yy",},"order":6,},
@@ -89,10 +90,10 @@
     {"name":"iOS","path":"options/ios/options_ios.yy",},
     {"name":"Linux","path":"options/linux/options_linux.yy",},
     {"name":"macOS","path":"options/mac/options_mac.yy",},
+    {"name":"Main","path":"options/main/options_main.yy",},
     {"name":"PlayStation 4","path":"options/ps4/options_ps4.yy",},
     {"name":"tvOS","path":"options/tvos/options_tvos.yy",},
     {"name":"Windows","path":"options/windows/options_windows.yy",},
-    {"name":"Main","path":"options/main/options_main.yy",},
   ],
   "defaultScriptType": 1,
   "isEcma": false,
@@ -129,10 +130,10 @@
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
   ],
   "TextureGroups": [
-    {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","isScaled":true,"compressFormat":"bz2","autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,},
+    {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","isScaled":true,"compressFormat":"bz2","loadType":"default","directory":"","autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,},
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.8.0.34",
+    "IDEVersion": "2022.11.0.54",
   },
 }
